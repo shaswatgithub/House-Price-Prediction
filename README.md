@@ -81,17 +81,8 @@ This project aims to **predict the sale price of a house** using machine learnin
 
 This project helps us gain insights into the housing market by identifying which features most impact price. By the end, we can predict house prices using trained models with decent accuracy and evaluate models to pick the best one.
 
-> 🚀 Future Work: Try Boosting (XGBoost, LightGBM) or feature selection techniques to improve performance!
 
 ---
 
-## 🤝 Contributing
 
-Feel free to fork this project, raise issues, or contribute! 🙌
-
----
-
-## 📄 License
-
-This project is open-source and available under the MIT License.
 
