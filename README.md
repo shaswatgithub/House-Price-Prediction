@@ -1,54 +1,60 @@
-# 🏡 House Price Prediction using Machine Learning in Python
+🧪 Steps Followed
+✅ Step 1: Importing Libraries & Dataset
 
-## 📌 Project Topic
-This project focuses on **predicting house prices** using **machine learning algorithms** based on various features such as location, size, number of bedrooms, condition, year built, and more.
+📥 Load the dataset (e.g., CSV/Excel) using pandas
+👀 Display first few rows using .head()
+📐 Check dataset shape and structure
 
----
+✅ Step 2: Data Preprocessing
 
-## 🎯 What We Will Do
+🔍 Identify columns by data types:
 
-In this project, we'll:
+🧾 Categorical (object)
 
-1. Load and preprocess the **House Price Prediction Dataset**
-2. Perform **Exploratory Data Analysis (EDA)** 🕵️‍♂️
-3. Clean and encode the data 🧼
-4. Train multiple **regression models**
-5. Evaluate their performance using **Mean Absolute Percentage Error (MAPE)** 📉
-6. Identify the best performing model 🥇
+🔢 Integer
 
----
+🔣 Float
 
-## 🛠️ Libraries Used
+📊 Count how many of each type we have
 
-📦 The following Python libraries were used:
+✅ Step 3: Exploratory Data Analysis (EDA)
 
-- **Pandas** → For data loading and manipulation
-- **Matplotlib** → For data visualization
-- **Seaborn** → For correlation heatmaps and plots
-- **Scikit-learn (sklearn)** → For preprocessing, model building, and evaluation
+📌 Use seaborn heatmaps to visualize correlation 🔥
+📉 Use barplots, histograms, and boxplots to understand:
 
----
+🛏️ Bedrooms
 
-## 🧑‍💻 Languages Used
+📍 Locations
 
-- **Python 3.x** 🐍
-- **Jupyter Notebook** or any Python IDE (e.g., VSCode, PyCharm)
+📅 Year Built
 
----
+💲 Price distributions
 
-## 🧪 Steps Followed
+✅ Step 4: Data Cleaning
 
-### ✅ Step 1: Importing Libraries & Dataset
-- Load the Excel dataset using `pandas`
-- Display first few rows and check dataset shape
+🧽 Drop irrelevant or redundant columns 🗑️
+🛠️ Handle missing values (e.g., mean/median imputation)
+🔁 Encode categorical features using LabelEncoder or OneHotEncoder
 
-### ✅ Step 2: Data Preprocessing
-- Identify columns by data types (categorical, integer, float)
-- Count how many of each type we have
+✅ Step 5: Model Building 🧠
 
-### ✅ Step 3: Exploratory Data Analysis (EDA)
-- Use `seaborn` heatmaps to check correlation
-- Use barplots to visualize categorical features and their distributions
+Train and compare different regression models such as:
 
-### ✅ Step 4: Data Cleaning
-- Drop irrelevan
+📈 Linear Regression
+
+🌲 Random Forest Regressor
+
+💡 Gradient Boosting Regressor
+
+🧠 XGBoost or others
+
+✅ Step 6: Model Evaluation 📉
+
+📏 Use Mean Absolute Percentage Error (MAPE) and R² Score to evaluate models
+📝 Compare results and choose the best model
+
+✅ Step 7: Final Output
+
+🎯 Display predictions on test data
+📊 Visualize actual vs predicted prices
+📤 Save the trained model using joblib or pickle for future use
